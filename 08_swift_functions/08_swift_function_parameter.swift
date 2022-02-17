@@ -85,3 +85,23 @@ changeAge(age: &myAge)
 print("My age after 5 years is: \(myAge)")
 
 
+// Swift function with retrurn type
+
+func demoFunc() -> Int {
+    return 100
+}
+
+print(demoFunc())
+
+
+// Swift function with multiple return type
+func anotherDemoFunc() -> (String, Int, String) {
+    return ("Imam", 24, "Masleap")
+}
+
+var result = anotherDemoFunc()
+
+print("Name: \(result.0)")
+print("Age: \(result.1)")
+print("Org: \(result.2)")
+
